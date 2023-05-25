@@ -1,5 +1,5 @@
 {
-  "name": "@examples/minimal-server",
+  "name": "@sensorico/backend",
   "version": "10.27.3",
   "private": true,
   "dependencies": {

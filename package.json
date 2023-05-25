@@ -1,5 +1,5 @@
 {
-  "name": "@examples/minimal",
+  "name": "sensorico-monorepo",
   "private": true,
   "version": "10.25.1",
   "scripts": {
