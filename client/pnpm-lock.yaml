@@ -1,0 +1,51 @@
+lockfileVersion: '6.0'
+
+dependencies:
+  '@trpc/client':
+    specifier: ^10.27.3
+    version: 10.27.3(@trpc/server@10.27.3)
+  undici:
+    specifier: ^5.14.0
+    version: 5.14.0
+
+devDependencies:
+  '@types/node':
+    specifier: ^18.7.20
+    version: 18.7.20
+
+packages:
+
+  /@trpc/client@10.27.3(@trpc/server@10.27.3):
+    resolution: {integrity: sha512-UjGHU7/XA8l7uUd0G7bIDlLHMBy+r5Z9XKe8/6uTGEc+u//0GnZ33iCeLkp86pPKzARmUnRDfRV1BYRb4f9+Jw==}
+    peerDependencies:
+      '@trpc/server': 10.27.3
+    dependencies:
+      '@trpc/server': 10.27.3
+    dev: false
+
+  /@trpc/server@10.27.3:
+    resolution: {integrity: sha512-WFW4al/ceCseYvp0ZeCwcY7wcypXuA0N0hH0l/VCSk7CHMJ5N9iduVtZXcnap3GAC8FNUEdwUW2/eQQ4DRra9A==}
+    dev: false
+
+  /@types/node@18.7.20:
+    resolution: {integrity: sha512-adzY4vLLr5Uivmx8+zfSJ5fbdgKxX8UMtjtl+17n0B1q1Nz8JEmE151vefMdpD+1gyh+77weN4qEhej/O7budQ==}
+    dev: true
+
+  /busboy@1.6.0:
+    resolution: {integrity: sha512-8SFQbg/0hQ9xy3UNTB0YEnsNBbWfhf7RtnzpL7TkBiTBRfrQ9Fxcnz7VJsleJpyp6rVLvXiuORqjlHi5q+PYuA==}
+    engines: {node: '>=10.16.0'}
+    dependencies:
+      streamsearch: 1.1.0
+    dev: false
+
+  /streamsearch@1.1.0:
+    resolution: {integrity: sha512-Mcc5wHehp9aXz1ax6bZUyY5afg9u2rv5cqQI3mRrYkGC8rW2hM02jWuwjtL++LS5qinSyhj2QfLyNsuc+VsExg==}
+    engines: {node: '>=10.0.0'}
+    dev: false
+
+  /undici@5.14.0:
+    resolution: {integrity: sha512-yJlHYw6yXPPsuOH0x2Ib1Km61vu4hLiRRQoafs+WUgX1vO64vgnxiCEN9dpIrhZyHFsai3F0AEj4P9zy19enEQ==}
+    engines: {node: '>=12.18'}
+    dependencies:
+      busboy: 1.6.0
+    dev: false
